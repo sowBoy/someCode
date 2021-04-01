@@ -1,0 +1,8 @@
+FROM bitnami/kubectl:1.18
+USER root
+RUN install_packages python3-pip
+RUN pip3 install awscli
+RUN aws configure set aws_access_key_id xxxxxxxxxxxxxwxwxxxxxxxxxxxxxx
+RUN aws configure set aws_secret_access_key sfdgdh<xxxxxxxxxxxxxxxxxxxx
+RUN aws configure set region eu-west-3
+COPY ./config /.kube/config
