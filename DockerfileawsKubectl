@@ -5,5 +5,5 @@ RUN pip3 install --upgrade setuptools
 RUN pip3 install awscli
 RUN aws configure set aws_access_key_id XXXXXYOURACCESSKEYIDXDGGFF
 RUN aws configure set aws_secret_access_key xxxxxxxyoursecretaccesskeyyyyyycc
-RUN aws configure set region eu-west-3
+RUN aws configure set region region-available
 COPY ./config /.kube/config 
