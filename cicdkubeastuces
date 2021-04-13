@@ -1,0 +1,1 @@
+sed -i "s|sf5-kub-rest-api|sf5-kub-rest-api:$CI_COMMIT_SHORT_SHA|g" kubernetes/*
