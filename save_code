@@ -1,0 +1,1 @@
+Jsm_Serializer @Type("DateTime<'Y-m-d\TH:i:s.u\Z'>") Date format : YYYY-MM-DDThh:mm:ss.00Z (ISO_8601) exemple "2020-08-25T14:31:04.469Z"
