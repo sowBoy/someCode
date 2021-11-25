@@ -1,0 +1,1 @@
+ansible-playbook -i inventory search-replace.yml --extra-vars '{ "elements" : [{"key" : "proxy.host", "value" : "10.194.98.1.5"},{"key" : "proxy.port", "value" : "95800"}]}'
